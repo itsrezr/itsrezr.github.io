@@ -58,7 +58,7 @@ class AboutMe extends Component {
                 have composed a dozen songs on the piano. In the recent years,
                 my creativity has been focused on making my own apps and games
                 using object-orientated programming as well as creating projects
-                such as websites through scripting and front-end development.
+                such as websites through front-end development and scripting languages.
               </p>
             </div>
             <div id="CollapseSection">
