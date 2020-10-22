@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/website/static/css/main.9ab1c1cd.chunk.css",
-    "main.js": "/website/static/js/main.36c49548.chunk.js",
-    "main.js.map": "/website/static/js/main.36c49548.chunk.js.map",
+    "main.js": "/website/static/js/main.be33b1b8.chunk.js",
+    "main.js.map": "/website/static/js/main.be33b1b8.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e1432b77.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e1432b77.js.map",
     "static/css/2.cd1c2086.chunk.css": "/website/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.d99f5e8d.chunk.js": "/website/static/js/2.d99f5e8d.chunk.js",
-    "static/js/2.d99f5e8d.chunk.js.map": "/website/static/js/2.d99f5e8d.chunk.js.map",
+    "static/js/2.13520568.chunk.js": "/website/static/js/2.13520568.chunk.js",
+    "static/js/2.13520568.chunk.js.map": "/website/static/js/2.13520568.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.5de272fda5346a36163af7fb15d236b0.js": "/website/precache-manifest.5de272fda5346a36163af7fb15d236b0.js",
+    "precache-manifest.000f9b08898f9263d88beda6e3d6381b.js": "/website/precache-manifest.000f9b08898f9263d88beda6e3d6381b.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.cd1c2086.chunk.css.map": "/website/static/css/2.cd1c2086.chunk.css.map",
     "static/css/main.9ab1c1cd.chunk.css.map": "/website/static/css/main.9ab1c1cd.chunk.css.map",
-    "static/js/2.d99f5e8d.chunk.js.LICENSE.txt": "/website/static/js/2.d99f5e8d.chunk.js.LICENSE.txt",
+    "static/js/2.13520568.chunk.js.LICENSE.txt": "/website/static/js/2.13520568.chunk.js.LICENSE.txt",
     "static/media/AboutMePic.jpeg": "/website/static/media/AboutMePic.c8076e03.jpeg",
     "static/media/components.css": "/website/static/media/DesignBackground2.709ffa13.jpg",
     "static/media/PillUpDemo.mp4": "/website/static/media/PillUpDemo.0e8de080.mp4",
     "static/media/PlanetPanicDemo.mp4": "/website/static/media/PlanetPanicDemo.43066bb0.mp4",
     "static/media/Planet_Panic_MainPic.png": "/website/static/media/Planet_Panic_MainPic.112c47d2.png",
+    "static/media/heavydatacorplogo.png": "/website/static/media/heavydatacorplogo.d94189b3.png",
     "static/media/maingamepicture.jpg": "/website/static/media/maingamepicture.525d163e.jpg",
     "static/media/portrait_logo_rez(new).png": "/website/static/media/portrait_logo_rez(new).c4cf497f.png",
     "static/media/rezzmix.JPG": "/website/static/media/rezzmix.f91033dc.JPG",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.e1432b77.js",
     "static/css/2.cd1c2086.chunk.css",
-    "static/js/2.d99f5e8d.chunk.js",
+    "static/js/2.13520568.chunk.js",
     "static/css/main.9ab1c1cd.chunk.css",
-    "static/js/main.36c49548.chunk.js"
+    "static/js/main.be33b1b8.chunk.js"
   ]
 }

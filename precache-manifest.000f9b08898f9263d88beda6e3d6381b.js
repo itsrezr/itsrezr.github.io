@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ae2eb0afda35005f71777a3a3a23f20",
+    "revision": "4db05645317d3b49ccbdaf72746adcd8",
     "url": "/website/index.html"
   },
   {
-    "revision": "b05e9d8809b1a219584f",
+    "revision": "f61e323fb2a595d4e828",
     "url": "/website/static/css/2.cd1c2086.chunk.css"
   },
   {
-    "revision": "038fb3d3f04c34cadab8",
+    "revision": "0ee60fc315e9d4b74c04",
     "url": "/website/static/css/main.9ab1c1cd.chunk.css"
   },
   {
-    "revision": "b05e9d8809b1a219584f",
-    "url": "/website/static/js/2.d99f5e8d.chunk.js"
+    "revision": "f61e323fb2a595d4e828",
+    "url": "/website/static/js/2.13520568.chunk.js"
   },
   {
     "revision": "caa799b2195062f13c84e9fdfdd6b866",
-    "url": "/website/static/js/2.d99f5e8d.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.13520568.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "038fb3d3f04c34cadab8",
-    "url": "/website/static/js/main.36c49548.chunk.js"
+    "revision": "0ee60fc315e9d4b74c04",
+    "url": "/website/static/js/main.be33b1b8.chunk.js"
   },
   {
     "revision": "fad12e275166f1d81c69",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "112c47d2ae5a3349467e123dbdc80f8c",
     "url": "/website/static/media/Planet_Panic_MainPic.112c47d2.png"
+  },
+  {
+    "revision": "d94189b37c40d13c4a7dca28f3b5ca5d",
+    "url": "/website/static/media/heavydatacorplogo.d94189b3.png"
   },
   {
     "revision": "525d163ede36bfccf0e7beac8031b7c3",
