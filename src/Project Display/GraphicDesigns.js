@@ -6,7 +6,7 @@ import pillUpPic from "../PicsandVids/maingamepicture.jpg";
 import rezsMix from "../PicsandVids/rezzmix.JPG";
 import ubcTalent from "../PicsandVids/ubctalentsized.jpg";
 import planetpanicPic from "../PicsandVids/Planet_Panic_MainPic.png";
-import portraitLogo from "../PicsandVids/portrait_logo_rez(new).png";
+import portraitLogo from "../PicsandVids/portrait_logo_rez_with_paint1.png";
 import womenInScience from "../PicsandVids/ubcwomeninsciencelogo_byRez.jpg";
 import heavyDataCorpLogo from "../PicsandVids/heavydatacorplogo.png";
 

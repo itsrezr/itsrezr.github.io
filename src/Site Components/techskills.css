@@ -2,3 +2,10 @@
   align-content: flex-end;
   color: blueviolet;
 }
+
+.rows {
+  border: 2px solid red;
+}
+.columns {
+  border: 2px solid palegreen;
+}

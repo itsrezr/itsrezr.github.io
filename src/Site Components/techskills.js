@@ -1,19 +1,35 @@
 import React, { Component } from "react";
 import "./components.css";
-import { Cell, Grid } from "react-mdl";
 import "./techskills.css";
-import pillUpPic from "../PicsandVids/maingamepicture.jpg";
-import rezsMix from "../PicsandVids/rezzmix.JPG";
-import ubcTalent from "../PicsandVids/ubctalentsized.jpg";
-import planetpanicPic from "../PicsandVids/Planet_Panic_MainPic.png";
-import portraitLogo from "../PicsandVids/portrait_logo_rez(new).png";
+import {Row, Col, Container} from 'react-bootstrap';
 
 class TechSkills extends Component {
   render() {
     return (
-      <div className="sectionPage" id=" ">
+      // <div className="sectionPage" >
+        <div>
         <h1 className="headerText">TECHNICAL SKILLS</h1>
-        <div style={{ width: "80%", margin: "auto" }}>
+
+        <Container>
+  <Row className="rows">
+    <Col className="columns">Languages</Col>
+    <Col className="columns">Frameworks</Col>
+    <Col className="columns">Databases</Col>
+  </Row>
+  <Row className="rows">
+  <Col className="columns">Languages</Col>
+  <Col className="columns">Frameworks</Col>
+  <Col className="columns">Databases</Col>
+  </Row>
+</Container>
+
+
+
+
+
+
+
+        {/* <div style={{ width: "80%", margin: "auto" }}>
           <Grid className="demo-grid-1">
             <Cell col={4}>Java</Cell>
             <Cell col={4}>C++</Cell>
@@ -39,7 +55,7 @@ class TechSkills extends Component {
               2 (4 phone)
             </Cell>
           </Grid>
-        </div>
+        </div> */}
       </div>
     );
   }
