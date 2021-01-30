@@ -38,7 +38,7 @@ class Apps extends Component {
     return (
       <div className="apps-page-background" id="apps" ref={this.vantaRef}>
         <FadeUp>
-          <h1 className="appsgamesText">APPS & GAMES</h1>
+          <h1 className="appsgamesText">PROJECTS</h1>
         </FadeUp>
         <Projects />
       </div>

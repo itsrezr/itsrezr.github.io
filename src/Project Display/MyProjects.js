@@ -6,6 +6,10 @@ import planetpanicPic from "../PicsandVids/Planet_Panic_MainPic.png";
 import toDoList from "../PicsandVids/toDoList.png";
 import pillupVid from "../PicsandVids/PillUpDemo.mp4";
 import planetpanicVid from "../PicsandVids/PlanetPanicDemo.mp4";
+import chatBotIcon from "../PicsandVids/ChatBotIcon.png";
+import chatBotChat from "../PicsandVids/ChatBotChat.png";
+import companiesDemo from "../PicsandVids/Companies.png";
+import paymentDemo from "../PicsandVids/Payment.png";
 import ProjectItem from "./ProjectItem";
 import ProjectModal from "./ProjectModal";
 
@@ -34,6 +38,16 @@ const Projects = (props) => {
             modal="#PillUpModal"
           />
           <ProjectItem
+            logo={chatBotIcon}
+            title="Chat Bot"
+            modal="#ChatBot"
+          />
+          <ProjectItem
+            logo={companiesDemo}
+            title="Employee-Use Software"
+            modal="#LifcoSoftware"
+          />
+          <ProjectItem
             logo={planetpanicPic}
             title="Planet Panic"
             modal="#PlanetPanicModal"
@@ -43,7 +57,7 @@ const Projects = (props) => {
             title="To-Do List"
             modal="#ToDoModal"
             alt="To Do Picture"
-          />
+          />          
         </div>
       </div>
 
@@ -125,6 +139,47 @@ const Projects = (props) => {
               patterns, and advanced iteration.
             </p>
           </>
+        }
+      />
+      <ProjectModal
+        className="regText"
+        id="ChatBot"
+        title="Live Chat Bot"
+        content={
+          <>
+            <p>
+              Working as a Full Stack Software Developer at Lifco Hydraulics, 3 other Co-op students and I created a
+              Live Chat Bot from scratch using C#, .Net, and Microsoft Azure Bot. The goal of the project was to create a 
+              live connection between employees and customers. The team included 2 Back-End Developers, 1 Front-End
+              Developer, and a Product Researcher/Database Developer. My role was being the Front-End Software Developer as 
+              well as help developing some back-end tools such as passing the user's information (their URL, IP Address, etc.) 
+              to the employee in the chat.
+              </p>
+              <div className="row">
+              <img src={chatBotChat}/>
+            </div>
+          </>                  
+        }
+      />
+      <ProjectModal
+        className="regText"
+        id="LifcoSoftware"
+        title="Employee Software Tools"
+        content={
+          <>
+            <p>
+              As a Full Stack Software Developer Co-op at Lifco Hydraulics, I created many softwares for Sales
+              employees to use. This includes a payment software for employees to enter clients' card details to 
+              process sales, a Viewer for all of the companies that are registered customers, a Viewer that
+              displays all recent Cash Receipts, etc. Technologies used were Javascript, HTML/CSS for developing the 
+              website, C# as the programming language, and SQL and MongoDB as databases to retrieve and push data.
+              </p><p>
+              (Image Credit Card details are simulated)
+              </p>
+              <div className="row">
+              <img src={paymentDemo}/>
+            </div>
+          </>                  
         }
       />
     </div>

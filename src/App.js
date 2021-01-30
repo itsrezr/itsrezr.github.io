@@ -28,7 +28,7 @@ class App extends Component {
               </li>
               <li>
                 <a id="navigationText" href="#apps">
-                  APPS & GAMES
+                  PROJECTS
                 </a>
               </li>
               <li>

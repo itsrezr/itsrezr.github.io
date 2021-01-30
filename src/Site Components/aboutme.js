@@ -48,8 +48,8 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Who am I? I'm a Full Stack Developer and a student at the
-                University of British Columbia studying Computer Science. Most
+                Who am I? Currently, I'm working as a Software Engineer at East Side Games,
+                and am a Computer Science student at the University of British Columbia. Most
                 people know me for my creativity. I've been creating projects
                 from a young age in different platforms. From the age of 9, I
                 created and ran my own blog on WordPress, made a YouTube channel
@@ -58,7 +58,7 @@ class AboutMe extends Component {
                 have composed a dozen songs on the piano. In the recent years,
                 my creativity has been focused on making my own apps and games
                 using object-orientated programming as well as creating projects
-                such as websites through front-end development and scripting languages.
+                such as websites through web development.
               </p>
             </div>
             <div id="CollapseSection">
@@ -69,9 +69,9 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                      My technical skills include language proficiency in Java,
-                      C#, C++, JavaScript, CSS, and HTML. Knowledge in
-                      frameworks and libraries include React and .NET, and I
+                      My technical skills include language proficiency in 
+                      C#, Java, C++, JavaScript, and CSS/HTML. Knowledge in
+                      technologies and frameworks include Unity, .NET and React. I
                       have experience in databases such as SQL and NoSQL
                       (MongoDB). My design experience is very strong, evident
                       through being the UI, UX, and Graphic Designer for all of
