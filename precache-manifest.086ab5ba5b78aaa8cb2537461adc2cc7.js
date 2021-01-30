@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "910c7a626918b21a5457ea5976f4c40d",
+    "revision": "ed6e4b12877a7e43ed63497525eaf5b4",
     "url": "/website/index.html"
   },
   {
-    "revision": "713f59c83d535d6f8a33",
+    "revision": "09b50ce2ffe786c13e13",
     "url": "/website/static/css/2.cd1c2086.chunk.css"
   },
   {
-    "revision": "c40df5cc45b27a9bb635",
+    "revision": "15c856f6ff769f754985",
     "url": "/website/static/css/main.45756203.chunk.css"
   },
   {
-    "revision": "713f59c83d535d6f8a33",
-    "url": "/website/static/js/2.ec25711c.chunk.js"
+    "revision": "09b50ce2ffe786c13e13",
+    "url": "/website/static/js/2.e0af3e44.chunk.js"
   },
   {
     "revision": "caa799b2195062f13c84e9fdfdd6b866",
-    "url": "/website/static/js/2.ec25711c.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.e0af3e44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c40df5cc45b27a9bb635",
-    "url": "/website/static/js/main.8ab4d765.chunk.js"
+    "revision": "15c856f6ff769f754985",
+    "url": "/website/static/js/main.93fc578a.chunk.js"
   },
   {
     "revision": "fad12e275166f1d81c69",
@@ -32,8 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/AboutMePic.c8076e03.jpeg"
   },
   {
+    "revision": "22dae37ef667416b3b685632cfe1c93a",
+    "url": "/website/static/media/ChatBotChat.22dae37e.png"
+  },
+  {
+    "revision": "c919b2b0aede8afa4f5ceeeb5cd9d6e3",
+    "url": "/website/static/media/ChatBotIcon.c919b2b0.png"
+  },
+  {
+    "revision": "94274fe5fc4b8baaeb9ba533e4064f54",
+    "url": "/website/static/media/Companies.94274fe5.png"
+  },
+  {
     "revision": "709ffa136368895a9ccd8847ed0572d4",
     "url": "/website/static/media/DesignBackground2.709ffa13.jpg"
+  },
+  {
+    "revision": "4197e7e7902fc3127b3431ad477d8111",
+    "url": "/website/static/media/Payment.4197e7e7.png"
   },
   {
     "revision": "0e8de080f1927040e8277221e5276bb5",
