@@ -13,6 +13,13 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#aboutmeText {
+  font-family: "Heebo", sans-serif;
+  color: #c432a1;
+  font-weight: 300;
+  font-size: 70px;
+}
+
 .collapsible-header {
   color: #c432a1;
   background-color: transparent;
@@ -53,9 +60,11 @@
 #connect {
   font-size: 25px;
   color: #2382ff;
+  white-space: nowrap;
+  float: right;
 }
 
-.AboutMePage {
+#AboutMe {
   font-family: "News Cycle", sans-serif;
   background-size: cover;
   background-position: center center;
@@ -63,12 +72,22 @@
   height: fit-content;
   min-height: 100vh;
   margin: 0;
-  padding-top: 20px;
-  padding-left: 70px;
   z-index: 1;
   display: block;
   position: relative;
   text-align: left;
   min-width: 100%;
   overflow: hidden;
+  align-items: center;
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #131a43,
+    #321a5c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #131a43,
+    #321a5c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

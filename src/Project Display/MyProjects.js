@@ -1,15 +1,14 @@
 import React, { useEffect } from "react";
-import "./Projects.css";
 import M from "materialize-css";
-import pillUpPic from "../PicsandVids/maingamepicture.jpg";
-import planetpanicPic from "../PicsandVids/Planet_Panic_MainPic.png";
-import toDoList from "../PicsandVids/toDoList.png";
-import pillupVid from "../PicsandVids/PillUpDemo.mp4";
-import planetpanicVid from "../PicsandVids/PlanetPanicDemo.mp4";
-import chatBotIcon from "../PicsandVids/ChatBotIcon.png";
-import chatBotChat from "../PicsandVids/ChatBotChat.png";
-import companiesDemo from "../PicsandVids/Companies.png";
-import paymentDemo from "../PicsandVids/Payment.png";
+import pillUpPic from "../Pictures and Videos/maingamepicture.jpg";
+import planetpanicPic from "../Pictures and Videos/Planet_Panic_MainPic.png";
+import toDoList from "../Pictures and Videos/toDoList.png";
+import pillupVid from "../Pictures and Videos/PillUpDemo.mp4";
+import planetpanicVid from "../Pictures and Videos/PlanetPanicDemo.mp4";
+import chatBotIcon from "../Pictures and Videos/ChatBotIcon.png";
+import chatBotChat from "../Pictures and Videos/ChatBotChat.png";
+import companiesDemo from "../Pictures and Videos/Companies.png";
+import paymentDemo from "../Pictures and Videos/Payment.png";
 import ProjectItem from "./ProjectItem";
 import ProjectModal from "./ProjectModal";
 

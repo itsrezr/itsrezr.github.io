@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "../App.css";
-import "./components.css";
-import "./home.css";
+import "../Page Sections CSS/HomePage.css";
 import TextLoop from "react-text-loop";
 import { Container, Row, Col } from "react-bootstrap";
 import HALO from "vanta/dist/vanta.halo.min.js";

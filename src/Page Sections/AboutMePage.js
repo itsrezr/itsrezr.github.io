@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
-import "./aboutme.css";
+import "../Page Sections CSS/AboutMePage.css";
 import M from "materialize-css";
-import aboutMePic from "../PicsandVids/AboutMePic.jpeg";
+import aboutMePic from "../Pictures and Videos/AboutMePic.jpeg";
 import { fadeInUp } from "react-animations";
 import styled, { keyframes } from "styled-components";
 
@@ -18,11 +18,10 @@ class AboutMe extends Component {
       animation: 3s ${keyframes`${fadeInUp}`};
     `;
     return (
-      <div className="AboutMePage" id="aboutme">
+      <div className="sectionPage" id="AboutMe">
         <FadeUp>
           <h1 id="aboutmeText">
             ABOUT ME
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a
               id="connect"
               href="https://www.linkedin.com/in/rezriazi/"

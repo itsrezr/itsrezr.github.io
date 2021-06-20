@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./components.css";
-import "./myProjects.css";
+import "../Page Sections CSS/Projects/ProjectsPage.css";
 import ModalX from "../Actions/Modal.js";
 import Projects from "../Project Display/MyProjects";
 import { fadeInUp } from "react-animations";
@@ -14,7 +13,7 @@ class Apps extends Component {
   }
   componentDidMount() {
     this.vantaEffect = NET({
-      el: ".apps-page-background",
+      el: "#Projects",
       mouseControls: false,
       touchControls: false,
       gyroControls: false,
@@ -36,9 +35,10 @@ class Apps extends Component {
       animation: 3s ${keyframes`${fadeInUp}`};
     `;
     return (
-      <div className="apps-page-background" id="apps" ref={this.vantaRef}>
+      <div className="sectionPage" id="Projects" ref={this.vantaRef}>
+       {/* <div className="apps-page-background" id="apps" ref={this.vantaRef}> */}
         <FadeUp>
-          <h1 className="appsgamesText">PROJECTS</h1>
+          <h1 id="projects-title">PROJECTS</h1>
         </FadeUp>
         <Projects />
       </div>

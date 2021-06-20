@@ -1,0 +1,21 @@
+#Projects {
+  background: -webkit-linear-gradient(
+    to right,
+    #c432a1,
+    #0e0849
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c432a1,
+    #0e0849
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#projects-title {
+  font-family: "Heebo", sans-serif;
+  background: linear-gradient(to left, #ff60d7, #0099f7);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  font-size: 70px;
+}

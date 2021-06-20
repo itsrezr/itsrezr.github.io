@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./components.css";
-import "./techskills.css";
+import "../Page Sections CSS/SkillsPage.css";
 import {Row, Col, Container} from 'react-bootstrap';
 
 class TechSkills extends Component {
@@ -22,13 +21,6 @@ class TechSkills extends Component {
   <Col className="columns">Databases</Col>
   </Row>
 </Container>
-
-
-
-
-
-
-
         {/* <div style={{ width: "80%", margin: "auto" }}>
           <Grid className="demo-grid-1">
             <Cell col={4}>Java</Cell>

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Navigation, Header } from "react-mdl";
-import Home from "./Site Components/home.js";
-import Apps from "./Site Components/apps.js";
-import Designs from "./Site Components/designs.js";
-import AboutMe from "./Site Components/aboutme.js";
-import TechSkills from "./Site Components/techskills";
+import Home from "./Page Sections/HomePage.js";
+import Apps from "./Page Sections/ProjectsPage";
+import Designs from "./Page Sections/DesignsPage.js";
+import AboutMe from "./Page Sections/AboutMePage.js";
+import TechSkills from "./Page Sections/SkillsPage";
 
 class App extends Component {
   render() {
@@ -27,17 +27,17 @@ class App extends Component {
                 </a>
               </li>
               <li>
-                <a id="navigationText" href="#apps">
+                <a id="navigationText" href="#Projects">
                   PROJECTS
                 </a>
               </li>
               <li>
-                <a id="navigationText" href="#designs">
+                <a id="navigationText" href="#Designs">
                   DESIGNS
                 </a>
               </li>
               <li>
-                <a id="navigationText" href="#aboutme">
+                <a id="navigationText" href="#AboutMe">
                   ABOUT ME
                 </a>
               </li>
