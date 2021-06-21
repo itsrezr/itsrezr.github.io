@@ -6,6 +6,24 @@
   /* font-family: "Poiret One", cursive; */
 }
 
+@media screen and (min-width: 200px) {
+  .mdl-layout__header {
+    display: initial !important;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .mdl-layout__header-row {
+    padding: 0 !important;
+  }
+  .mdl-layout__header-row .mdl-navigation__link {
+    padding: 0 5px !important;
+  }
+  #navigationText {
+    font-size: 6.8vw !important;
+  }
+}
+
 #navigationText {
   background-color: transparent;
   color: #c432a1;
@@ -82,7 +100,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0079c4;
+  background: rgb(168, 213, 255);
 }
 
 /* Handle on hover */

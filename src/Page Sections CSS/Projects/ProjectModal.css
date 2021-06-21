@@ -13,18 +13,29 @@
 }
 
 #popUpModal {
-  background: #0099f7; /* fallback for old browsers */
+  background: #321a5c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #d8ffff,
-    #0099f7
+    #131a43,
+    #321a5c
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #d8ffff, #0099f7);
+  background: linear-gradient(to bottom, #131a43, #321a5c);
   font-size: large;
+  font-family: inherit;
+  color: rgb(168, 213, 255);
   align-items: center;
   margin: 5;
   padding: 10;
   margin-bottom: 20;
+}
+
+h4 {
+  font-family: unset !important;
+  color: rgb(192, 223, 252);
+}
+
+img {
+  width: 100%;
 }
 
 .responsive-vid {
@@ -49,7 +60,7 @@
   height: 20%;
 }
 
-#appsNameText {
+#project-title-text {
   text-align: center;
   font-size: large;
   font-family: "Heebo", sans-serif;
@@ -64,4 +75,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  #ToDoModal {
+    width: inherit;
+  }
+
+  .modal {
+    width: 80%;
+  }
 }

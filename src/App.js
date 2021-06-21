@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import { Navigation, Header } from "react-mdl";
 import Home from "./Page Sections/HomePage.js";
-import Apps from "./Page Sections/ProjectsPage";
-import Designs from "./Page Sections/DesignsPage.js";
+import Apps from "./Page Sections/Projects Section/ProjectsPage";
+import Designs from "./Page Sections/Designs Section/DesignsPage.js";
 import AboutMe from "./Page Sections/AboutMePage.js";
 import TechSkills from "./Page Sections/SkillsPage";
 

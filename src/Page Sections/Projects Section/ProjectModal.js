@@ -1,6 +1,6 @@
 import React from "react";
-import "../Page Sections CSS/Projects/ProjectModal.css";
-import "../App.css";
+import "../../Page Sections CSS/Projects/ProjectModal.css";
+import "../../App.css";
 
 const ProjectModal = (props) => {
   return (

@@ -13,7 +13,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#aboutmeText {
+#about-me-title {
   font-family: "Heebo", sans-serif;
   color: #c432a1;
   font-weight: 300;
@@ -43,13 +43,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 340px;
+  width: 25vw;
   /* width: 25%; */
-  padding: 20px;
+  padding-right: 20px;
 }
 
 #aboutMeWritten {
-  width: 70%;
   font-size: large;
   /* font-size: 1.8vw; */
   display: flex;
@@ -62,6 +61,7 @@
   color: #2382ff;
   white-space: nowrap;
   float: right;
+  padding-top: 5vh;
 }
 
 #AboutMe {
@@ -90,4 +90,31 @@
     #131a43,
     #321a5c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 646px) {
+  #about-me-title {
+    text-align: right;
+    font-size: 14vw;
+    padding-top: 8.5%;
+    line-height: 60%;
+  }
+
+  #connect {
+    font-size: 5vw;
+    float: unset;
+  }
+
+  #aboutMeSection {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  #AboutPicture {
+    display: none;
+  }
+
+  #aboutMeWritten {
+    font-size: medium;
+  }
 }

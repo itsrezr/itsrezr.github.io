@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../Page Sections CSS/Projects/ProjectsPage.css";
-import ModalX from "../Actions/Modal.js";
-import Projects from "../Project Display/MyProjects";
+import "../../Page Sections CSS/Projects/ProjectsPage.css";
+import ModalX from "../../Actions/Modal.js";
+import Projects from "./MyProjects";
 import { fadeInUp } from "react-animations";
 import styled, { keyframes } from "styled-components";
 import NET from "vanta/dist/vanta.net.min.js";
@@ -36,7 +36,6 @@ class Apps extends Component {
     `;
     return (
       <div className="sectionPage" id="Projects" ref={this.vantaRef}>
-       {/* <div className="apps-page-background" id="apps" ref={this.vantaRef}> */}
         <FadeUp>
           <h1 id="projects-title">PROJECTS</h1>
         </FadeUp>

@@ -1,4 +1,4 @@
-.home-page-background {
+#home-page-background {
   font-family: "News Cycle", sans-serif;
   background-size: cover;
   background-position: center center;
@@ -14,18 +14,35 @@
   overflow: hidden;
 }
 
-.home-text {
+#name-title {
   color: #00e0f0;
-  position: static;
-  top: 50%;
-  left: 40%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 90px;
 }
 
 #loop-text {
-  font-size: 40px !important;
   font-family: "News Cycle", sans-serif;
   color: #c432a1;
+}
+
+@media screen and (max-width: 925px) {
+  #name-title {
+    font-size: 20vw;
+    top: 50%;
+    left: 11%;
+  }
+
+  #loop-text {
+    font-size: 8vw !important;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  #name-title {
+    font-size: 90px;
+    top: 50%;
+    left: 57%;
+  }
+
+  #loop-text {
+    font-size: 40px !important;
+  }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import MyDesigns from "../Project Display/GraphicDesigns";
-import "../Page Sections CSS/DesignsPage.css";
+import MyDesigns from "./GraphicDesigns";
+import "../../Page Sections CSS/DesignsPage.css";
 
 class Design extends Component {
   render() {

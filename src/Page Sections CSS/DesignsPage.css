@@ -1,3 +1,9 @@
 #Designs {
   background-image: url("../Pictures and Videos/DesignBackground2.jpg");
 }
+
+@media screen and (max-width: 925px) {
+  #Designs {
+    background-position-x: 15%;
+  }
+}

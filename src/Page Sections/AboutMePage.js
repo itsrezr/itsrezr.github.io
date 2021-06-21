@@ -20,7 +20,7 @@ class AboutMe extends Component {
     return (
       <div className="sectionPage" id="AboutMe">
         <FadeUp>
-          <h1 id="aboutmeText">
+          <h1 id="about-me-title">
             ABOUT ME
             <a
               id="connect"
@@ -60,7 +60,7 @@ class AboutMe extends Component {
                 such as websites through web development.
               </p>
             </div>
-            <div id="CollapseSection">
+            <div>
               <ul class="collapsible expandable">
                 <li>
                   <div class="collapsible-header">

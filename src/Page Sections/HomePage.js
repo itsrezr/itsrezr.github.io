@@ -10,9 +10,10 @@ class Home extends Component {
     super();
     this.vantaRef = React.createRef();
   }
+
   componentDidMount() {
     this.vantaEffect = HALO({
-      el: ".home-page-background",
+      el: "#home-page-background",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
@@ -23,28 +24,26 @@ class Home extends Component {
       size: 1.3,
     });
   }
+
   componentWillUnmount() {
     if (this.vantaEffect) this.vantaEffect.destroy();
   }
+
   render() {
     return (
-      <div className="home-page-background" ref={this.vantaRef}>
-        <div className="home-text">
-          <Container>
-            <Row>
-              <Col md={{ offset: 4 }}>
-                <header>
-                  <b>REZ RIAZI</b>
-                </header>
-                <br />
-                <br />
-                <TextLoop>
-                  <span id="loop-text"> Software Engineer.</span>
-                  <span id="loop-text"> Creator.</span>
-                </TextLoop>
-              </Col>
-            </Row>
-          </Container>
+       <div id="home-page-background">
+        <div id="name-title">
+          <Row>
+            <header>
+              REZ&nbsp;RIAZI
+            </header>
+            <br />
+            <br />
+            <TextLoop>
+              <span id="loop-text"> Software Engineer.</span>
+              <span id="loop-text"> Creator.</span>
+            </TextLoop>
+          </Row>
         </div>
       </div>
     );

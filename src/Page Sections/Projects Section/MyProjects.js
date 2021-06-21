@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import M from "materialize-css";
-import pillUpPic from "../Pictures and Videos/maingamepicture.jpg";
-import planetpanicPic from "../Pictures and Videos/Planet_Panic_MainPic.png";
-import toDoList from "../Pictures and Videos/toDoList.png";
-import pillupVid from "../Pictures and Videos/PillUpDemo.mp4";
-import planetpanicVid from "../Pictures and Videos/PlanetPanicDemo.mp4";
-import chatBotIcon from "../Pictures and Videos/ChatBotIcon.png";
-import chatBotChat from "../Pictures and Videos/ChatBotChat.png";
-import companiesDemo from "../Pictures and Videos/Companies.png";
-import paymentDemo from "../Pictures and Videos/Payment.png";
+import pillUpPic from "../../Pictures and Videos/maingamepicture.jpg";
+import planetpanicPic from "../../Pictures and Videos/Planet_Panic_MainPic.png";
+import toDoList from "../../Pictures and Videos/toDoList.png";
+import pillupVid from "../../Pictures and Videos/PillUpDemo.mp4";
+import planetpanicVid from "../../Pictures and Videos/PlanetPanicDemo.mp4";
+import chatBotIcon from "../../Pictures and Videos/ChatBotIcon.png";
+import chatBotChat from "../../Pictures and Videos/ChatBotChat.png";
+import companiesDemo from "../../Pictures and Videos/Companies.png";
+import paymentDemo from "../../Pictures and Videos/Payment.png";
 import ProjectItem from "./ProjectItem";
 import ProjectModal from "./ProjectModal";
 
@@ -28,7 +28,7 @@ const Projects = (props) => {
           class="grid-container"
           className="carousel col s12"
           // id="navigationText"
-          id="appsNameText"
+          id="project-title-text"
         >
           <ProjectItem
             className="picApps"
@@ -61,7 +61,6 @@ const Projects = (props) => {
       </div>
 
       <ProjectModal
-        // className="regText"
         id="PillUpModal"
         title="Pill Up - Interactive Arcade Game"
         content={
@@ -125,7 +124,6 @@ const Projects = (props) => {
         }
       />
       <ProjectModal
-        className="regText"
         id="ToDoModal"
         title="To Do List"
         content={
@@ -141,7 +139,6 @@ const Projects = (props) => {
         }
       />
       <ProjectModal
-        className="regText"
         id="ChatBot"
         title="Live Chat Bot"
         content={
