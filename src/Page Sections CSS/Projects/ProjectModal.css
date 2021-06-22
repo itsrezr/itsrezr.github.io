@@ -85,4 +85,8 @@ img {
   .modal {
     width: 80%;
   }
+
+  .carousel {
+    overflow: visible;
+  }
 }
