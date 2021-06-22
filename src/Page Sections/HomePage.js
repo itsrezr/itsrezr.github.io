@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import "../Page Sections CSS/HomePage.css";
 import TextLoop from "react-text-loop";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import HALO from "vanta/dist/vanta.halo.min.js";
 
 class Home extends Component {

@@ -5,21 +5,32 @@ import Home from "./Page Sections/HomePage.js";
 import Apps from "./Page Sections/Projects Section/ProjectsPage";
 import Designs from "./Page Sections/Designs Section/DesignsPage.js";
 import AboutMe from "./Page Sections/AboutMePage.js";
-import TechSkills from "./Page Sections/SkillsPage";
 
 class App extends Component {
+  componentDidMount() {
+    this.prevScrollpos = window.pageYOffset;
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+      var currentScrollPos = window.pageYOffset;
+      if (this.prevScrollpos > currentScrollPos) {
+        document.getElementById("header-row").style.top = "0";
+      } else {
+        document.getElementById("header-row").style.top = "-50px";
+      }
+      this.prevScrollpos = currentScrollPos;
+    }
+
   render() {
     return (
-      <div
-        className="everything"
-        id="everything"
-        // style={{ display: "flex", flexDirection: "column" }}
-      >
+      <div>
         <Header className="regText" id="header-row" transparent title=" ">
-          <ul
-            transparent
-            // id="nav-mobile" class="right"
-          >
+          <ul transparent>
             <Navigation transparent>
               <li>
                 <a id="navigationText" href="">
@@ -45,7 +56,6 @@ class App extends Component {
           </ul>
         </Header>
         <Home />
-        {/* <TechSkills /> */}
         <Apps />
         <Designs />
         <AboutMe />

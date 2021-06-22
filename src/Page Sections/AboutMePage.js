@@ -13,6 +13,7 @@ class AboutMe extends Component {
       accordion: false,
     });
   }
+  
   render() {
     const FadeUp = styled.div`
       animation: 3s ${keyframes`${fadeInUp}`};
@@ -33,13 +34,9 @@ class AboutMe extends Component {
             </a>
           </h1>
         </FadeUp>
-        <div
-          // className="col l6 m6 pull-l1 valign-wrapper center-align hide-on-med-and-down"
-          id="aboutMeSection"
-        >
+        <div id="aboutMeSection">
           <img
             src={aboutMePic}
-            // src="https://media-exp1.licdn.com/dms/image/C5603AQFmr7Usskq8Hg/profile-displayphoto-shrink_200_200/0?e=1593648000&v=beta&t=g0TJ58iFnq4U7MLRz9yECSkD2dQJEKV0kE7atqaQo4E"
             className="circle responsive-img"
             id="AboutPicture"
             alt="ProfilePic"
