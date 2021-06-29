@@ -2,7 +2,7 @@
   "name": "rezportfolio2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://itsrezr.github.io/website",
+  "homepage": "https://itsrezr.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

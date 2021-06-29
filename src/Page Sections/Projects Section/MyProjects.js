@@ -70,7 +70,7 @@ const Projects = (props) => {
               The objective of the game is to survive as long as possible, by
               avoiding spikes, aging pills, and growth pills. This was a team
               project, and in addition to coding, I was responsible for the User
-              Interface, User Experience Design, creating the graphics (made on
+              Interface, User Experience Design, creating the graphics (made in
               Krita), and debugging. This was made at the 48-hour BC Game Jam.
             </p>
             <p>
