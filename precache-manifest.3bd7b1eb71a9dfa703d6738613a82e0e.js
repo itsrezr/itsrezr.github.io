@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcb079d418b49c70d41ca4ec4997fb4c",
+    "revision": "48387b952e1690fa2eaf02d50925adee",
     "url": "/index.html"
   },
   {
-    "revision": "6ce6784efdc7680d49ad",
+    "revision": "2756e7dd3c03247f40cd",
     "url": "/static/css/2.cd1c2086.chunk.css"
   },
   {
-    "revision": "af916c9e2ffea29660e3",
-    "url": "/static/css/main.b1c9947e.chunk.css"
+    "revision": "c95e87efcf79d24ebf92",
+    "url": "/static/css/main.61ab48c8.chunk.css"
   },
   {
-    "revision": "6ce6784efdc7680d49ad",
-    "url": "/static/js/2.eea54a25.chunk.js"
+    "revision": "2756e7dd3c03247f40cd",
+    "url": "/static/js/2.f1664b70.chunk.js"
   },
   {
     "revision": "caa799b2195062f13c84e9fdfdd6b866",
-    "url": "/static/js/2.eea54a25.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f1664b70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af916c9e2ffea29660e3",
-    "url": "/static/js/main.228e3e50.chunk.js"
+    "revision": "c95e87efcf79d24ebf92",
+    "url": "/static/js/main.f9d12576.chunk.js"
   },
   {
     "revision": "6ffd81d391f4a8bc0b58",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c8076e0385265f440f8d5e5d136b7622",
     "url": "/static/media/AboutMePic.c8076e03.jpeg"
+  },
+  {
+    "revision": "559021de149d6f8a91953593f0f729c9",
+    "url": "/static/media/CSEmblem.559021de.png"
   },
   {
     "revision": "22dae37ef667416b3b685632cfe1c93a",
@@ -64,6 +68,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Planet_Panic_MainPic.112c47d2.png"
   },
   {
+    "revision": "184eac847e9827a5a341601e752a8dd3",
+    "url": "/static/media/TheOffice_CollectCash.184eac84.png"
+  },
+  {
+    "revision": "356c9a8429aa66b7c58edc44caa41ec5",
+    "url": "/static/media/TheOffice_MainArt.356c9a84.png"
+  },
+  {
+    "revision": "8bf80263117bbd2142f098f9fe0b58b6",
+    "url": "/static/media/TheOffice_ReliveMoments.8bf80263.png"
+  },
+  {
     "revision": "d94189b37c40d13c4a7dca28f3b5ca5d",
     "url": "/static/media/heavydatacorplogo.d94189b3.png"
   },
@@ -90,5 +106,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ea7726ac3197a89fc2ac17d7075f476",
     "url": "/static/media/ubcwomeninsciencelogo_byRez.7ea7726a.jpg"
+  },
+  {
+    "revision": "7ed41ec906b00e42ab83b7a9ad8d92fc",
+    "url": "/static/media/website-icon.7ed41ec9.png"
   }
 ]);
