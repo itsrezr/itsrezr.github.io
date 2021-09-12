@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import M from "materialize-css";
 import ProjectItem from "../Projects Section/ProjectItem";
+import csEmblemPic from "../../Pictures and Videos/CSEmblem.png";
 import pillUpPic from "../../Pictures and Videos/maingamepicture.jpg";
 import rezsMix from "../../Pictures and Videos/rezzmix.JPG";
 import ubcTalent from "../../Pictures and Videos/ubctalentsized.jpg";
@@ -22,13 +23,14 @@ const GraphicDesigns = (props) => {
       <div className="container section">
         <div className="row">
           <div className="carousel col s12">
-          <ProjectItem logo={heavyDataCorpLogo} />
+            <ProjectItem logo={heavyDataCorpLogo} />
             <ProjectItem logo={ubcTalent} />
-            <ProjectItem logo={rezsMix} />
+            <ProjectItem logo={csEmblemPic} />
             <ProjectItem logo={womenInScience}/>
             <ProjectItem logo={planetpanicPic}  />
             <ProjectItem logo={pillUpPic} />
             <ProjectItem logo={portraitLogo}/>
+            <ProjectItem logo={rezsMix} />
           </div>
         </div>
       </div>

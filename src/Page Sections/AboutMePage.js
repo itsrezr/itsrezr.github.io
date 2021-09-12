@@ -84,10 +84,12 @@ class AboutMe extends Component {
                       My strengths include my strong problem-solving skills, my
                       attention to detail, as well as being a fast learner.
                       Being on competitive volleyball and softball teams
-                      throughout the years has taught me to be very comfortable
+                      throughout the years, as well as working in company software 
+                      development teams, has taught me to be very comfortable
                       in collaborative settings and being a team player. My
-                      leadership skills are evident through being a supervisor
-                      and training new employees at my job as a Wine Sales
+                      leadership skills are evident through doing project 
+                      management in projects with my peers, as well as 
+                      being a supervisor and training new employees as a Wine Sales
                       Representative.
                     </span>
                   </div>

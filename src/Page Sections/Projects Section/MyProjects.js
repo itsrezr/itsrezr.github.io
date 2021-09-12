@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import M from "materialize-css";
+import "../../Page Sections CSS/Projects/ProjectModal.css";
+import theOfficeGamePic from "../../Pictures and Videos/TheOffice_MainArt.png";
+import theOfficeCollectCash from "../../Pictures and Videos/TheOffice_CollectCash.png";
+import theOfficeReliveMoments from "../../Pictures and Videos/TheOffice_ReliveMoments.png";
 import pillUpPic from "../../Pictures and Videos/maingamepicture.jpg";
 import planetpanicPic from "../../Pictures and Videos/Planet_Panic_MainPic.png";
 import toDoList from "../../Pictures and Videos/toDoList.png";
@@ -27,14 +31,13 @@ const Projects = (props) => {
         <div
           class="grid-container"
           className="carousel col s12"
-          // id="navigationText"
           id="project-title-text"
         >
           <ProjectItem
-            className="picApps"
-            logo={pillUpPic}
-            title="Pill Up"
-            modal="#PillUpModal"
+            className="my-carousel"
+            logo={theOfficeGamePic}
+            title="The Office: Official Game"
+            modal="#TheOfficeGame"
           />
           <ProjectItem
             logo={chatBotIcon}
@@ -45,6 +48,12 @@ const Projects = (props) => {
             logo={companiesDemo}
             title="Employee-Use Software"
             modal="#LifcoSoftware"
+          />
+          <ProjectItem
+            className="picApps"
+            logo={pillUpPic}
+            title="Pill Up"
+            modal="#PillUpModal"
           />
           <ProjectItem
             logo={planetpanicPic}
@@ -61,6 +70,45 @@ const Projects = (props) => {
       </div>
 
       <ProjectModal
+        id="TheOfficeGame"
+        title="The Office: Somehow We Manage"
+        content={
+          <>
+            <p>
+            In January 2021 I joined <b>East Side Games</b> as the third <b>Software Engineer</b> during the pre-production 
+            of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios. I was 
+            one of eight developers to create the mobile game <b>The Office: Somehow We Manage</b>, 
+            which is releasing in late 2021!
+            </p>
+            <p>
+            I was independently responsible for <b>implementing all audio</b> in the game (music, 
+            sound effects, ambience, stings, etc.). More notably, I was given <b>my own 
+            feature</b> in the game in which I created with full autonomy. I developed the ascension 
+            feature of the game -- a challenge the user plays after they complete an episode. Working 
+            with <b>C#</b> and <b>Unity</b>, I created service classes, load phases, algorithms, and 
+            helped develop a "saving data" architecture.
+            </p>
+            <p>
+            As a co-op and youngest person on the team, I was treated and had the same responsibilities 
+            as a normal software engineer. I helped <b>plan sprints, attended all engineer meetings, 
+            managed my own features</b>, and most importantly, was part of the <b>code review process</b> where I 
+            was responsible for <b>reviewing and approving other developer's code</b>. I was in consistent 
+            collaboration and in sync with all disciplines of the team -- such as production, story 
+            writers, UI/UX, artists, game designers, QA, etc. 
+            </p>
+            <p>
+            I had an amazing experience and learned so much while creating a game for a show with such 
+            a huge fan base! Download on iOS/Android later this year!
+            </p>
+            <div className="row">
+                <img id="img-row-2" src={theOfficeCollectCash}/>
+                <img id="img-row-2" src={theOfficeReliveMoments}/>
+            </div>
+          </>
+        }
+      />
+
+      <ProjectModal
         id="PillUpModal"
         title="Pill Up - Interactive Arcade Game"
         content={
@@ -71,7 +119,8 @@ const Projects = (props) => {
               avoiding spikes, aging pills, and growth pills. This was a team
               project, and in addition to coding, I was responsible for the User
               Interface, User Experience Design, creating the graphics (made in
-              Krita), and debugging. This was made at the 48-hour BC Game Jam.
+              Krita), and debugging. This was made at the 48-hour BC Game Jam in 
+              Febuary 2020.
             </p>
             <p>
               Use Left/Right/Up/Down arrows to move & SPACE bar to pause game
@@ -105,7 +154,7 @@ const Projects = (props) => {
         content={
           <>
             <p>
-              At the Hacking For Humanity Hackathon hosted by Girls in Tech, I
+              At the 2019 Hacking For Humanity Hackathon hosted by Girls in Tech, I
               made the game “Planet-Panic”. The objective of the game is to
               collect different pieces of garbage and put it in the bin it
               belongs to, which educates kids about waste. I created all of the
