@@ -9,6 +9,7 @@ import planetpanicPic from "../../Pictures and Videos/Planet_Panic_MainPic.png";
 import toDoList from "../../Pictures and Videos/toDoList.png";
 import pillupVid from "../../Pictures and Videos/PillUpDemo.mp4";
 import planetpanicVid from "../../Pictures and Videos/PlanetPanicDemo.mp4";
+import websiteIcon from "../../Pictures and Videos/website-icon.png";
 import chatBotIcon from "../../Pictures and Videos/ChatBotIcon.png";
 import chatBotChat from "../../Pictures and Videos/ChatBotChat.png";
 import companiesDemo from "../../Pictures and Videos/Companies.png";
@@ -34,7 +35,6 @@ const Projects = (props) => {
           id="project-title-text"
         >
           <ProjectItem
-            className="my-carousel"
             logo={theOfficeGamePic}
             title="The Office: Official Game"
             modal="#TheOfficeGame"
@@ -48,6 +48,11 @@ const Projects = (props) => {
             logo={companiesDemo}
             title="Employee-Use Software"
             modal="#LifcoSoftware"
+          />
+          <ProjectItem
+            logo={websiteIcon}
+            title="This Website"
+            modal="#WebsiteModal"
           />
           <ProjectItem
             className="picApps"
@@ -107,7 +112,20 @@ const Projects = (props) => {
           </>
         }
       />
-
+      <ProjectModal
+        id="WebsiteModal"
+        title="www.rezriazi.com"
+        content={
+          <>
+            <p>
+              I coded this website using <b>React</b> with languages <b>JavaScript, 
+              HTML, and CSS</b>. It is implemented through <b>Node.js</b> in <b>Microsoft 
+              Visual Studio Code</b>, and Github.io used to host the site's URL online. I 
+              used a few front-end libraries, notably <b>Materialize-css</b> and <b>Bootstrap</b>.
+            </p>
+          </>
+        }
+      />
       <ProjectModal
         id="PillUpModal"
         title="Pill Up - Interactive Arcade Game"
