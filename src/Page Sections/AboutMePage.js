@@ -44,19 +44,17 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Who am I? I'm a 4th year Computer Science student at the University 
-                of British Columbia. I've completed 1 year of Co-op work (3 terms), focused 
-                on game and web development.
+              I'm a 4th year Computer Science student at the University of British Columbia. 
+              I've completed 12 months of full time Co-op work as a Software Engineer in 
+              both game and web development.
               </p>
               <p id="aboutMeWritten">
-                Most people know me for my creativity. I've been 
-                creating projects from a young age in different platforms. From the age 
-                of 9, I created and ran my own blog on WordPress, made a YouTube channel
-                of lyric videos which would reach 50,000 views, created my own
-                cartoon series using GoAnimate, wrote a mini book series, and
-                have composed a dozen songs on the piano. My passion for creating, as well 
-                as being logic driven is the reason why I decided software development was 
-                the perfect path for me.
+              Most people know me for my creativity. I've been creating projects from a 
+              young age such as composing songs on the piano, creating cartoons, videos 
+              and blogs. One of my favorite pastimes is solving puzzles such as sudoku, 
+              physical puzzles, backgammon, tetris and chess. Combining my passion for 
+              creating as well as being logic driven is the reason why I decided to 
+              pursue Computer Science and Software Development!
               </p>
             </div>
             <div>
