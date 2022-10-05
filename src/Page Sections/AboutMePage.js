@@ -44,8 +44,8 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-              I'm a 4th year Computer Science student at the University of British Columbia. 
-              I've completed 16 months of full time internships as a Software Engineer.
+              I'm a new graduate (May 2023) in Computer Science from the University of British Columbia, with 16 months of
+              internship experience as a Software engineer.
               </p>
               <p id="aboutMeWritten">
               Most people know me for my creativity. I've been creating projects from a 
