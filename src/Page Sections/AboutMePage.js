@@ -45,8 +45,7 @@ class AboutMe extends Component {
             <div className="bodyText">
               <p id="aboutMeWritten">
               I'm a 4th year Computer Science student at the University of British Columbia. 
-              I've completed 12 months of full time Co-op work as a Software Engineer in 
-              both game and web development.
+              I've completed 16 months of full time internships as a Software Engineer.
               </p>
               <p id="aboutMeWritten">
               Most people know me for my creativity. I've been creating projects from a 
