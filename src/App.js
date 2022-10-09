@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { Navigation, Header } from "react-mdl";
 import Home from "./Page Sections/HomePage.js";
+import WorkExperience from "./Page Sections/Work Section/WorkExperiencePage";
 import Apps from "./Page Sections/Projects Section/ProjectsPage";
 import Designs from "./Page Sections/Designs Section/DesignsPage.js";
 import AboutMe from "./Page Sections/AboutMePage.js";
@@ -38,6 +39,11 @@ class App extends Component {
                 </a>
               </li>
               <li>
+                <a id="navigationText" href="#WorkExperience">
+                  EXPERIENCE
+                </a>
+              </li>
+              <li>
                 <a id="navigationText" href="#Projects">
                   PROJECTS
                 </a>
@@ -56,6 +62,7 @@ class App extends Component {
           </ul>
         </Header>
         <Home />
+        <WorkExperience />
         <Apps />
         <Designs />
         <AboutMe />

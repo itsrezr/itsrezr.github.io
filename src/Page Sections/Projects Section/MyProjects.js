@@ -79,35 +79,39 @@ const Projects = (props) => {
         title="The Office: Somehow We Manage"
         content={
           <>
-            <p>
-            In January 2021 I joined <b>East Side Games</b> as the third <b>Software Engineer</b> during the pre-production 
-            of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios. I was 
-            one of eight developers to create the mobile game <b>The Office: Somehow We Manage</b>, 
-            which is releasing in late 2021!
-            </p>
-            <p>
-            I was independently responsible for <b>implementing all audio</b> in the game (music, 
-            sound effects, ambience, stings, etc.). More notably, I was given <b>my own 
-            feature</b> in the game in which I created with full autonomy. I developed the ascension 
-            feature of the game -- a challenge the user plays after they complete an episode. Working 
-            with <b>C#</b> and <b>Unity</b>, I created service classes, load phases, algorithms, and 
-            helped develop a "saving data" architecture.
-            </p>
-            <p>
-            As a co-op and youngest person on the team, I was treated and had the same responsibilities 
-            as a normal software engineer. I helped <b>plan sprints, attended all engineer meetings, 
-            managed my own features</b>, and most importantly, was part of the <b>code review process</b> where I 
-            was responsible for <b>reviewing and approving other developer's code</b>. I was in consistent 
-            collaboration and in sync with all disciplines of the team -- such as production, story 
-            writers, UI/UX, artists, game designers, QA, etc. 
-            </p>
-            <p>
-            I had an amazing experience and learned so much while creating a game for a show with such 
-            a huge fan base! Download on iOS/Android later this year!
-            </p>
-            <div className="row">
+          <div className="row">
+            <div className="column">
+              <p>
+              In January 2021 I joined <b>East Side Games</b> as the third <b>Software Engineer</b> during the pre-production 
+              of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios. I was 
+              one of eight developers to create the mobile game <b>The Office: Somehow We Manage</b>, 
+              which is releasing in late 2021!
+              </p>
+              <p>
+              I was independently responsible for <b>implementing all audio</b> in the game (music, 
+              sound effects, ambience, stings, etc.). More notably, I was given <b>my own 
+              feature</b> in the game in which I created with full autonomy. I developed the ascension 
+              feature of the game -- a challenge the user plays after they complete an episode. Working 
+              with <b>C#</b> and <b>Unity</b>, I created service classes, load phases, algorithms, and 
+              helped develop a "saving data" architecture.
+              </p>
+              <p>
+              As a co-op, I had the same responsibilities as a normal software engineer. I helped 
+              <b>plan sprints, attended all engineer meetings, 
+              managed my own features</b>, and most importantly, was part of the <b>code review process</b> where I 
+              was responsible for <b>reviewing and approving other developer's code</b>. I was in consistent 
+              collaboration and in sync with all disciplines of the team -- such as production, story 
+              writers, UI/UX, artists, game designers, QA, etc. 
+              </p>
+              <p>
+              I had an amazing experience and learned so much while creating a game for a show with such 
+              a huge fan base! Download on iOS/Android later this year!
+              </p>
+            </div>
+            <div className="column">
                 <img id="img-row-2" src={theOfficeCollectCash}/>
                 <img id="img-row-2" src={theOfficeReliveMoments}/>
+            </div>
             </div>
           </>
         }

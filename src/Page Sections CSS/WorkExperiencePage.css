@@ -1,0 +1,83 @@
+  @media screen and (max-width: 925px) {
+    #workexperience {
+      background-position-x: 15%;
+    }
+  }
+
+  #background {
+      color: white;
+  }
+
+  #background {
+    font-family: "News Cycle", sans-serif;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    margin: 0;
+    z-index: 1;
+    display: block;
+    position: relative;
+    text-align: left;
+    min-width: 100%;
+    overflow: hidden;
+    align-items: center;
+    background: #1c92d2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #131a43,
+      #321a5c
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #131a43,
+      #321a5c
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #job-table {
+    align-items: stretch;
+    color: white;
+    background: #1c92d2; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #131a43,
+      #321a5c
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #131a43,
+      #321a5c
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  p.job-description {
+    line-height: 0.05pc !important;
+    font-size: 1vw !important;
+  }
+
+  .job-description {
+    width: 100%;
+    background: red !important;
+  }
+
+  .section-container {
+    align-items: stretch;
+    align-content: stretch;
+    display: flex;
+  justify-content: space-between;
+  }
+
+  .job-description1 {
+    width: 350vh;
+    display: inline-block !important;
+  }
+
+  .logo {
+    padding-right: 0% !important;
+    object-fit: cover;
+    /* width: 100%;
+    align-items: flex-start !important;
+    align-self: flex-start !important; */
+  }
