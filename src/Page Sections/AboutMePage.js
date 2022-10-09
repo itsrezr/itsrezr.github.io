@@ -44,17 +44,12 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-              I'm a 4th year Computer Science student at the University of British Columbia. 
-              I've completed 12 months of full time Co-op work as a Software Engineer in 
-              both game and web development.
+              I'm a new Computer Science graduate from the University of British Columbia (May 2023), with 16 months of
+              internship experience as a Software engineer. Most recently, intern at DeepMind in London, UK.
               </p>
-              <p id="aboutMeWritten">
-              Most people know me for my creativity. I've been creating projects from a 
-              young age such as composing songs on the piano, creating cartoons, videos 
-              and blogs. One of my favorite pastimes is solving puzzles such as sudoku, 
-              physical puzzles, backgammon, tetris and chess. Combining my passion for 
-              creating as well as being logic driven is the reason why I decided to 
-              pursue Computer Science and Software Development!
+              <p  id="aboutMeWritten"> I've worked as a Software Engineer in a variety of industries - artificial
+              intelligence, mobile games, and web development. In addition, I have a strong UI/UX background with
+              a big interest in digital graphic designing.
               </p>
             </div>
             <div>
@@ -66,7 +61,7 @@ class AboutMe extends Component {
                   <div class="collapsible-body">
                     <span>
                       My technical skills include language proficiency in 
-                      C#, Java, C++, JavaScript, and CSS/HTML. Knowledge in
+                      C#, Java, Python, JavaScript, and CSS/HTML. Knowledge in
                       technologies and frameworks include Unity, .NET and React. I
                       have experience in databases such as SQL and NoSQL
                       (MongoDB). My design experience is very strong, evident
@@ -80,17 +75,20 @@ class AboutMe extends Component {
                     <i class="material-icons">person</i>Personal Strengths
                   </div>
                   <div class="collapsible-body">
-                    <span>
-                      My strengths include my strong problem-solving skills, my
-                      attention to detail, as well as being a fast learner.
-                      Being on competitive volleyball and softball teams
-                      throughout the years, as well as working in company software 
-                      development teams, has taught me to be very comfortable
-                      in collaborative settings and being a team player. My
-                      leadership skills are evident through doing project 
-                      management in projects with my peers, as well as 
-                      being a supervisor and training new employees as a Wine Sales
-                      Representative.
+                    <span>  
+                    My most notable skill is my creativity. I've been creating projects from a 
+                    young age such as composing songs on the piano, creating cartoons, videos 
+                    and blogs.
+                    <br/><br/>
+                    My strengths include my strong problem-solving skills, my
+                    attention to detail, as well as being a fast learner.
+                    Being on competitive volleyball and softball teams
+                    throughout the years, and working in 3 different tech companies,
+                    I'm quite comfortable in collaborative settings and being a team player.
+                    My leadership skills are evident through doing project 
+                    management roles in projects with my peers, as well as 
+                    being a supervisor and training new employees as a Wine Sales
+                    Representative.
                     </span>
                   </div>
                 </li>

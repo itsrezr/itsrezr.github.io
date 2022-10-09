@@ -82,8 +82,7 @@ const Projects = (props) => {
             <p>
             In January 2021 I joined <b>East Side Games</b> as the third <b>Software Engineer</b> during the pre-production 
             of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios. I was 
-            one of eight developers to create the mobile game <b>The Office: Somehow We Manage</b>, 
-            which is releasing in late 2021!
+            one of eight developers to create the mobile game <b>The Office: Somehow We Manage</b>, which is released January 2022.
             </p>
             <p>
             I was independently responsible for <b>implementing all audio</b> in the game (music, 
@@ -94,7 +93,7 @@ const Projects = (props) => {
             helped develop a "saving data" architecture.
             </p>
             <p>
-            As a co-op and youngest person on the team, I was treated and had the same responsibilities 
+            As an intern, I was treated and had the same responsibilities 
             as a normal software engineer. I helped <b>plan sprints, attended all engineer meetings, 
             managed my own features</b>, and most importantly, was part of the <b>code review process</b> where I 
             was responsible for <b>reviewing and approving other developer's code</b>. I was in consistent 
@@ -102,8 +101,14 @@ const Projects = (props) => {
             writers, UI/UX, artists, game designers, QA, etc. 
             </p>
             <p>
-            I had an amazing experience and learned so much while creating a game for a show with such 
-            a huge fan base! Download on iOS/Android later this year!
+              The game is available on iOS/Android, and has over a million downloads.&nbsp;
+              <a
+                href="https://play.google.com/store/apps/details?id=com.eastsidegames.theofficeswm&hl=en&gl=US"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                [Link to game]
+              </a>
             </p>
             <div className="row">
                 <img id="img-row-2" src={theOfficeCollectCash}/>

@@ -42,6 +42,7 @@ class Home extends Component {
             <TextLoop>
               <span id="loop-text"> Software Engineer.</span>
               <span id="loop-text"> Creator.</span>
+              <span id="loop-text"> Intern @ DeepMind.</span>
             </TextLoop>
           </Row>
         </div>
