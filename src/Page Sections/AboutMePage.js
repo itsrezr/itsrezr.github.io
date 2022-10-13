@@ -30,7 +30,7 @@ class AboutMe extends Component {
               rel="noopener noreferrer"
             >
               <i class="material-icons">supervisor_account</i>
-              &nbsp;CONNECT WITH ME
+              &nbsp;LINKEDIN
             </a>
           </h1>
         </FadeUp>
@@ -45,7 +45,7 @@ class AboutMe extends Component {
             <div className="bodyText">
               <p id="aboutMeWritten">
               I'm a new Computer Science graduate from the University of British Columbia (May 2023), with 16 months of
-              internship experience as a Software engineer. Most recently, intern at DeepMind in London, UK.
+              internship experience as a Software Engineer. Most recently, intern at DeepMind in London, UK.
               </p>
               <p  id="aboutMeWritten"> I've worked as a Software Engineer in a variety of industries - artificial
               intelligence, mobile games, and web development. In addition, I have a strong UI/UX background with
