@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import M from "materialize-css";
 import ProjectItem from "../Projects Section/ProjectItem";
 import csEmblemPic from "../../Pictures and Videos/CSEmblem.png";
-import pillUpPic from "../../Pictures and Videos/maingamepicture.jpg";
-import rezsMix from "../../Pictures and Videos/rezzmix.JPG";
 import ubcTalent from "../../Pictures and Videos/ubctalentsized.jpg";
 import planetpanicPic from "../../Pictures and Videos/Planet_Panic_MainPic.png";
 import womenInScience from "../../Pictures and Videos/ubcwomeninsciencelogo_byRez.jpg";
@@ -27,8 +25,6 @@ const GraphicDesigns = (props) => {
             <ProjectItem logo={csEmblemPic} />
             <ProjectItem logo={womenInScience}/>
             <ProjectItem logo={planetpanicPic}  />
-            <ProjectItem logo={pillUpPic} />
-            <ProjectItem logo={rezsMix} />
           </div>
         </div>
       </div>
