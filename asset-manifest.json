@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.61ab48c8.chunk.css",
-    "main.js": "/static/js/main.16d0000d.chunk.js",
-    "main.js.map": "/static/js/main.16d0000d.chunk.js.map",
+    "main.js": "/static/js/main.a2dcd77d.chunk.js",
+    "main.js.map": "/static/js/main.a2dcd77d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c6c115a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c6c115a.js.map",
     "static/css/2.cd1c2086.chunk.css": "/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.f1664b70.chunk.js": "/static/js/2.f1664b70.chunk.js",
-    "static/js/2.f1664b70.chunk.js.map": "/static/js/2.f1664b70.chunk.js.map",
+    "static/js/2.803e5b36.chunk.js": "/static/js/2.803e5b36.chunk.js",
+    "static/js/2.803e5b36.chunk.js.map": "/static/js/2.803e5b36.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b914b2eddb693a37abce265019b55c48.js": "/precache-manifest.b914b2eddb693a37abce265019b55c48.js",
+    "precache-manifest.57b42b0bbdd3e635bdceb142f3d33b9c.js": "/precache-manifest.57b42b0bbdd3e635bdceb142f3d33b9c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cd1c2086.chunk.css.map": "/static/css/2.cd1c2086.chunk.css.map",
     "static/css/main.61ab48c8.chunk.css.map": "/static/css/main.61ab48c8.chunk.css.map",
-    "static/js/2.f1664b70.chunk.js.LICENSE.txt": "/static/js/2.f1664b70.chunk.js.LICENSE.txt",
+    "static/js/2.803e5b36.chunk.js.LICENSE.txt": "/static/js/2.803e5b36.chunk.js.LICENSE.txt",
     "static/media/AboutMePic.jpeg": "/static/media/AboutMePic.c8076e03.jpeg",
     "static/media/CSEmblem.png": "/static/media/CSEmblem.559021de.png",
     "static/media/ChatBotChat.png": "/static/media/ChatBotChat.22dae37e.png",
@@ -29,8 +29,6 @@
     "static/media/TheOffice_ReliveMoments.png": "/static/media/TheOffice_ReliveMoments.8bf80263.png",
     "static/media/heavydatacorplogo.png": "/static/media/heavydatacorplogo.d94189b3.png",
     "static/media/maingamepicture.jpg": "/static/media/maingamepicture.525d163e.jpg",
-    "static/media/portrait_logo_rez_with_paint1.png": "/static/media/portrait_logo_rez_with_paint1.a9f3707c.png",
-    "static/media/rezzmix.JPG": "/static/media/rezzmix.f91033dc.JPG",
     "static/media/toDoList.png": "/static/media/toDoList.e0524739.png",
     "static/media/ubctalentsized.jpg": "/static/media/ubctalentsized.fd068e91.jpg",
     "static/media/ubcwomeninsciencelogo_byRez.jpg": "/static/media/ubcwomeninsciencelogo_byRez.7ea7726a.jpg",
@@ -39,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c6c115a.js",
     "static/css/2.cd1c2086.chunk.css",
-    "static/js/2.f1664b70.chunk.js",
+    "static/js/2.803e5b36.chunk.js",
     "static/css/main.61ab48c8.chunk.css",
-    "static/js/main.16d0000d.chunk.js"
+    "static/js/main.a2dcd77d.chunk.js"
   ]
 }
