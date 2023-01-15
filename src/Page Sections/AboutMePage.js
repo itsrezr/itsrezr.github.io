@@ -59,7 +59,7 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                    <p> Language proficiency in C#, Java, Python, C++, JavaScript, Typescript, and CSS/HTML.
+                    <p> Language proficiency in C#, Java, Python, C++, JavaScript, Typescript, and HTML/CSS.
                     </p> 
                     <p> Developed in frameworks such as Unity, .NET and React.
                     </p>
