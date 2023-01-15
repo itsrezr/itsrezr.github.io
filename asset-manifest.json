@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.61ab48c8.chunk.css",
-    "main.js": "/static/js/main.a2dcd77d.chunk.js",
-    "main.js.map": "/static/js/main.a2dcd77d.chunk.js.map",
+    "main.js": "/static/js/main.666fd9f6.chunk.js",
+    "main.js.map": "/static/js/main.666fd9f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c6c115a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c6c115a.js.map",
     "static/css/2.cd1c2086.chunk.css": "/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.803e5b36.chunk.js": "/static/js/2.803e5b36.chunk.js",
-    "static/js/2.803e5b36.chunk.js.map": "/static/js/2.803e5b36.chunk.js.map",
+    "static/js/2.bfa17928.chunk.js": "/static/js/2.bfa17928.chunk.js",
+    "static/js/2.bfa17928.chunk.js.map": "/static/js/2.bfa17928.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.57b42b0bbdd3e635bdceb142f3d33b9c.js": "/precache-manifest.57b42b0bbdd3e635bdceb142f3d33b9c.js",
+    "precache-manifest.edd1391ec408096b03a759f39bba4358.js": "/precache-manifest.edd1391ec408096b03a759f39bba4358.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cd1c2086.chunk.css.map": "/static/css/2.cd1c2086.chunk.css.map",
     "static/css/main.61ab48c8.chunk.css.map": "/static/css/main.61ab48c8.chunk.css.map",
-    "static/js/2.803e5b36.chunk.js.LICENSE.txt": "/static/js/2.803e5b36.chunk.js.LICENSE.txt",
+    "static/js/2.bfa17928.chunk.js.LICENSE.txt": "/static/js/2.bfa17928.chunk.js.LICENSE.txt",
     "static/media/AboutMePic.jpeg": "/static/media/AboutMePic.c8076e03.jpeg",
     "static/media/CSEmblem.png": "/static/media/CSEmblem.559021de.png",
     "static/media/ChatBotChat.png": "/static/media/ChatBotChat.22dae37e.png",
     "static/media/ChatBotIcon.png": "/static/media/ChatBotIcon.c919b2b0.png",
     "static/media/Companies.png": "/static/media/Companies.94274fe5.png",
     "static/media/DesignsPage.css": "/static/media/DesignBackground2.709ffa13.jpg",
+    "static/media/Graphic Designs.png": "/static/media/Graphic Designs.943c116b.png",
     "static/media/Payment.png": "/static/media/Payment.4197e7e7.png",
     "static/media/PillUpDemo.mp4": "/static/media/PillUpDemo.0e8de080.mp4",
     "static/media/PlanetPanicDemo.mp4": "/static/media/PlanetPanicDemo.43066bb0.mp4",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c6c115a.js",
     "static/css/2.cd1c2086.chunk.css",
-    "static/js/2.803e5b36.chunk.js",
+    "static/js/2.bfa17928.chunk.js",
     "static/css/main.61ab48c8.chunk.css",
-    "static/js/main.a2dcd77d.chunk.js"
+    "static/js/main.666fd9f6.chunk.js"
   ]
 }
