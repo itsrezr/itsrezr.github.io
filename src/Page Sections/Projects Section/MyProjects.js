@@ -9,6 +9,7 @@ import planetpanicPic from "../../Pictures and Videos/Planet_Panic_MainPic.png";
 import toDoList from "../../Pictures and Videos/toDoList.png";
 import pillupVid from "../../Pictures and Videos/PillUpDemo.mp4";
 import planetpanicVid from "../../Pictures and Videos/PlanetPanicDemo.mp4";
+import graphicDesignsPic from "../../Pictures and Videos/Graphic Designs.png";
 import websiteIcon from "../../Pictures and Videos/website-icon.png";
 import chatBotIcon from "../../Pictures and Videos/ChatBotIcon.png";
 import chatBotChat from "../../Pictures and Videos/ChatBotChat.png";
@@ -16,6 +17,11 @@ import companiesDemo from "../../Pictures and Videos/Companies.png";
 import paymentDemo from "../../Pictures and Videos/Payment.png";
 import ProjectItem from "./ProjectItem";
 import ProjectModal from "./ProjectModal";
+// designs:
+import csEmblemPic from "../../Pictures and Videos/CSEmblem.png";
+import ubcTalent from "../../Pictures and Videos/ubctalentsized.jpg";
+import womenInScience from "../../Pictures and Videos/ubcwomeninsciencelogo_byRez.jpg";
+import heavyDataCorpLogo from "../../Pictures and Videos/heavydatacorplogo.png";
 
 const Projects = (props) => {
   useEffect(() => {
@@ -70,7 +76,12 @@ const Projects = (props) => {
             title="To-Do List"
             modal="#ToDoModal"
             alt="To Do Picture"
-          />          
+          />                    
+          <ProjectItem
+            logo={graphicDesignsPic}
+            title="Designs"
+            modal="#Designs"
+          />
         </div>
       </div>
 
@@ -189,6 +200,22 @@ const Projects = (props) => {
                 className="responsive-vid"
                 alt="Game Demo"
               />
+            </div>
+          </>
+        }
+      />
+      <ProjectModal
+        id="Designs"
+        title="Graphic Designs"
+        content={
+          <>
+            <div className="row">
+                <img id="img-row-2" src={heavyDataCorpLogo}/>
+                <img id="img-row-2" src={csEmblemPic}/>
+            </div>
+            <div className="row">
+                <img id="img-row-2" src={womenInScience}/>
+                <img id="img-row-2" src={ubcTalent}/>
             </div>
           </>
         }

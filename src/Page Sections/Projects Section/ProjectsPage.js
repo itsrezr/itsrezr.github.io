@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../Page Sections CSS/Projects/ProjectsPage.css";
-import ModalX from "../../Actions/Modal.js";
 import Projects from "./MyProjects";
 import { fadeInUp } from "react-animations";
 import styled, { keyframes } from "styled-components";

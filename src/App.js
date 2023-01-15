@@ -42,11 +42,11 @@ class App extends Component {
                   PROJECTS
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a id="navigationText" href="#Designs">
                   DESIGNS
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a id="navigationText" href="#AboutMe">
                   ABOUT ME
@@ -57,7 +57,7 @@ class App extends Component {
         </Header>
         <Home />
         <Apps />
-        <Designs />
+        {/* <Designs /> */}
         <AboutMe />
       </div>
     );
