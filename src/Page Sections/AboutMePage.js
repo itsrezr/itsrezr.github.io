@@ -44,11 +44,11 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-              New Computer Science graduate from the University of British Columbia (May 2023), with 16 months of
-              co-op/internship experience as a Software Engineer. Most recently, intern at Google DeepMind in London, UK.
+              Hi, I'm Rez! I'm a Software Engineer living in New York City, with experience in a variety of tech industries including virtual reality,
+              artificial intelligence research, mobile games, and web development.
               </p>
-              <p  id="aboutMeWritten">Worked as a Software Engineer in a variety of tech industries such as
-              artificial intelligence research, mobile games, and web development. 
+              <p  id="aboutMeWritten">In my spare time, I love to play indoor volleyball, rollerblade around the city, and create songs the piano. 
+                I'm quite social and adventurous so I love travelling, meeting new people, and trying new food and experiences. 
               </p>
             </div>
             <div>
@@ -59,15 +59,13 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                    <p> Language proficiency in C#, Java, Python, C++, JavaScript, Typescript, and HTML/CSS.
-                    </p> 
-                    <p> Developed in frameworks such as Unity, .NET and React.
-                    </p>
-                    <p> Experience in databases using SQL, NoSQL (MongoDB), PHP, and Oracle.
-                    </p>
+                    <p> Language proficiency in Java, C#, Python, Typescript, and C++.</p> 
+                    <p> Proficient in web development using JavaScript, React, jQuery, HTML, CSS.</p>
+                    <p> Experience in databases using SQL, MongoDB, PHP, and Oracle.</p>
+                    <p> Developed in Unity, .NET, git, iOS, TestFlight, Android Studio, and IntelliJ.</p>
+                    <p> Experience in databases using SQL, NoSQL (MongoDB), PHP, and Oracle.</p>
                     <p> Design experience is strong, evident through being the UI, UX, and Graphic Designer for many of
-                      my individual and collaborative projects.
-                    </p>
+                      my individual and collaborative projects using Figma, Adobe Photoshop, and Canva.</p>
                     </span>
                   </div>
                 </li>
@@ -80,13 +78,13 @@ class AboutMe extends Component {
                     My most notable strengths include my strong problem-solving skills, my
                     attention to detail, as well as being a fast learner.
                     <br/><br/>
-                    I'm very comfortable in collaborative settings and am a very strong team player.
+                    I'm love being in collaborative settings and am a very strong team player.
                     My leadership skills are evident through having project 
                     management roles in projects with my peers, as well as through having experience
                     being a supervisor and training new employees as a Wine Sales Representative. 
                     <br/><br/> 
-                    I am a very creative individual, creating projects from a 
-                    young age such as composing songs on the piano, creating cartoons, videos 
+                    I am a highly creative person, creating projects from a 
+                    young age such as composing piano songs, creating a mini cartoon series, making YouTube videos 
                     and writing blogs.
                     </span>
                   </div>
