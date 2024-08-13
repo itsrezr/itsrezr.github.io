@@ -47,8 +47,12 @@ class AboutMe extends Component {
               Hi, I'm Rez! I'm a Software Engineer living in New York City, with experience in a variety of tech industries including virtual reality,
               artificial intelligence research, mobile games, and web development.
               </p>
-              <p  id="aboutMeWritten">In my spare time, I love to play indoor volleyball, rollerblade around the city, and create songs the piano. 
-                I'm quite social and adventurous so I love travelling, meeting new people, and trying new food and experiences. 
+              <p id="aboutMeWritten">
+              After immigrating from Iran when I was six, I grew up in Canada where I discovered my passion for programming during an intro course
+              at the University of British Columbia, where I earned my Computer Science degree. </p>
+              <p id="aboutMeWritten">
+                In my free time, I enjoy playing volleyball, rollerblading, and playing the piano.
+                I'm quite social and adventurous, so I love traveling, meeting new people, and exploring new foods and experiences.
               </p>
             </div>
             <div>
