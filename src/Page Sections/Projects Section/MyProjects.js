@@ -92,32 +92,30 @@ const Projects = (props) => {
           <>
             <p>East Side Games, Jan - Sept 2021</p>
             <p>
-            I joined as the third <b>Software Engineer</b> during the pre-production 
-            of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios. I was 
-            one of eight developers to create the mobile game <b>The Office: Somehow We Manage.</b>
+            I joined as the third Software Engineer during the pre-production 
+            of the game for the show <b>The Office</b>, in collaboration with NBC and Universal Studios.
             </p>
             <p>
-            I was responsible for <b>implementing all audio</b> in the game (music, 
-            sound effects, ambience, stings, etc.). I was also given <b>my own 
-            feature</b> in the game in which I created with full autonomy. I also developed the ascension 
-            feature (The Boss Challenge: a mini game after an episode is completed) of the game with full autonomy.
+            I was responsible for implementing the audio (music, 
+            sound effects, ambience, stings, etc.). I also developed the ascension 
+            feature (Boss Challenge: a mini game after an episode is completed). Mainly developed in C# and Unity.
             </p>
             <p>
-            Mainly developed in <b>C#</b> and <b>Unity</b>, I created service classes, load phases, algorithms, and 
-            helped develop a "saving data" architecture.
-            </p>
-            <p>
-            Responsibilities include helping <b>plan sprints, managing my own features</b>, and <b>reviewing and approving
-            other Engineers' codes</b>. In consistent collaboration with production, story writers, UI/UX, artists, game designers, QA, etc. 
-            </p>
-            <p>
-              The game is available on iOS/Android, with 1M+ downloads.&nbsp;
+              The game is available on&nbsp;
+              <a
+                href="https://apps.apple.com/us/app/the-office-somehow-we-manage/id1585729056"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                iOS
+              </a>
+              &nbsp;and&nbsp;
               <a
                 href="https://play.google.com/store/apps/details?id=com.eastsidegames.theofficeswm&hl=en&gl=US"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                [Link to game]
+                Android
               </a>
             </p>
             <div className="row">
@@ -134,10 +132,10 @@ const Projects = (props) => {
           <>
             <p>May 2020.</p>
             <p>
-              I coded this website using <b>React</b> with languages <b>JavaScript, 
-              HTML, and CSS</b>. It is implemented through <b>Node.js</b> in <b>Microsoft 
-              Visual Studio Code</b>, and Github.io used to host the site's URL online. I 
-              used a few front-end libraries, notably <b>Materialize-css</b> and <b>Bootstrap</b>.
+              I created this website using React, JavaScript, 
+              HTML, and CSS. It is implemented through Node.js in Microsoft 
+              Visual Studio Code, and Github.io used to host the site's URL online. I 
+              used a few front-end libraries, notably Materialize-css and Bootstrap.
             </p>
           </>
         }
