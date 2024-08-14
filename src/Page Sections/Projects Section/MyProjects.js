@@ -174,6 +174,9 @@ const Projects = (props) => {
                 src={pillupVid}
                 className="responsive-vid"
                 alt="Game Demo"
+                ref={(video) => {
+                  if (video) video.volume = 0.05; 
+                }}
               />
             </div>
           </>
@@ -197,6 +200,9 @@ const Projects = (props) => {
                 src={planetpanicVid}
                 className="responsive-vid"
                 alt="Game Demo"
+                ref={(video) => {
+                  if (video) video.volume = 0.05; 
+                }}
               />
             </div>
           </>
@@ -241,8 +247,8 @@ const Projects = (props) => {
           <>
             <p>Lifco Hydraulics, Sept - Dec 2020</p>
             <p>
-              Working as a Full Stack Software Developer Co-op, 3 other Co-op students and I created a
-              Live Chat Bot from scratch using C#, .Net, and Microsoft Azure Bot. The goal of the project was to create a 
+              Working as a Software Engineer Intern, 3 other interns and I built a
+              Live Chat Bot from 0 to 1 using C#, .Net, and Microsoft Azure Bot. The goal of the project was to create a 
               live connection between employees and customers. My role was more Front-End, but also helped develop some
               back-end API connecting user information to the employee, such as their URL, IP Address, etc.
               </p>
@@ -260,11 +266,10 @@ const Projects = (props) => {
           <>
             <p>Lifco Hydraulics, Sept - Dec 2020</p>
             <p>
-              As a Full Stack Software Developer Co-op, I created many softwares for Sales
+              As a Software Engineer Intern, I created many softwares for Sales
               employees to use. This includes a payment software for employees to enter clients' card details to 
-              process sales, a Viewer for all of the companies that are registered customers, a Viewer that
-              displays all recent Cash Receipts, etc. Technologies used were Javascript, HTML/CSS for developing the 
-              website, C# as the programming language, and SQL and MongoDB as databases to retrieve and push data.
+              process sales, and an internal tooling to display registered customers, recent cash receipts, etc.
+              Technologies used were Javascript, C#, SQL and MongoDB.
               </p>
               <div className="row">
               <img src={paymentDemo}/>

@@ -44,11 +44,11 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Hi, I'm Rez! I'm a Software Engineer living in New York City, with experience in a variety of tech industries including virtual reality,
+                Hi, I'm Rez! I'm a Software Engineer in New York City, with experience in a variety of tech industries including virtual reality,
                 artificial intelligence research, mobile games, and web development.
               </p>
               <p id="aboutMeWritten">
-                After immigrating from Iran when I was six, I grew up in Canada where I discovered my passion for programming during an intro course
+                After immigrating from Iran when I was six, I grew up in Canada where I discovered my passion for computing during an intro course
                 at the University of British Columbia, where I earned my Computer Science degree. </p>
               <p id="aboutMeWritten">
                 In my free time, I enjoy playing volleyball, rollerblading, and playing the piano.
