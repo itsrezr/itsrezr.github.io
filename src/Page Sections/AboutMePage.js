@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import "../Page Sections CSS/AboutMePage.css";
 import M from "materialize-css";
-import aboutMePic from "../Pictures and Videos/AboutMePic.jpeg";
+import aboutMePic from "../Pictures and Videos/AboutMePic.JPEG";
 import { fadeInUp } from "react-animations";
 import styled, { keyframes } from "styled-components";
 
@@ -44,15 +44,18 @@ class AboutMe extends Component {
           <div>
             <div className="bodyText">
               <p id="aboutMeWritten">
-                Hi, I'm Rez! I'm a Software Engineer in New York City, with experience in a variety of tech industries including virtual reality,
-                artificial intelligence research, mobile games, and web development.
+                Hi, I'm Rez! I'm a Software Engineer living in New York City, with experience in a variety of tech industries including virtual reality,
+                artificial intelligence research, mobile games, and web development. Currently working on Google Earth as part of Google's Geo
+                Sustainability Team.
               </p>
               <p id="aboutMeWritten">
-                After immigrating from Iran when I was six, I grew up in Canada where I discovered my passion for computing during an intro course
-                at the University of British Columbia, where I earned my Computer Science degree. </p>
+                I immigrated to Canada from Iran when I was six. Growing up, I was always drawn to mathematics. However, I discovered my passion for logic,
+                algorithms, and computing during an introductory course I enrolled in at the last minute to escape an organic chemistry class. Ultimately
+                that led me to pursue my Computer Science degree at the University of British Columbia. </p>
               <p id="aboutMeWritten">
-                In my free time, I enjoy playing volleyball, rollerblading, and playing the piano.
-                I'm quite social and adventurous, so I love traveling, meeting new people, and exploring new foods and experiences.
+                Outside of work, I love being creative, active, and competitive. I love creating songs on the piano, and I play on a few sports teams -
+                volleyball, soccer, spikeball. I also love rollerblading, skiing, and solving puzzles. I'm quite social and adventurous, so I love traveling,
+                meeting new people, and exploring new foods and experiences.
               </p>
             </div>
             <div>
@@ -63,7 +66,7 @@ class AboutMe extends Component {
                   </div>
                   <div class="collapsible-body">
                     <span>
-                      <p> Language proficiency in Java, C#, Python, Typescript, and C++.</p>
+                      <p> Language proficiency in Dart, C++, Java, C#, Python, Typescript.</p>
                       <p> Proficient in web development using JavaScript, React, jQuery, HTML, CSS.</p>
                       <p> Experience in databases using SQL, MongoDB, PHP, and Oracle.</p>
                       <p> Developed in Unity, .NET, git, iOS, TestFlight, Android Studio, and IntelliJ.</p>
